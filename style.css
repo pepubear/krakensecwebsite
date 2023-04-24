@@ -1,0 +1,112 @@
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/863914826031169549/1099178705433137245/wallapepr1920.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 75px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.box {
+    background-color: #2b3a7f;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 10px auto;
+    max-width: 1000px;
+    animation: fadein 1.5s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+}
+
+.box p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-align: justify;
+}
+.box a {
+    color: #01BFA5;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.box a:hover {
+    color: white;
+}
+  .box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.box li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.box.network a {
+    color: #01BFA5;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.box.network li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 17px;
+    line-height: 1.5;
+    vertical-align: middle;
+}
