@@ -1,3 +1,4 @@
+
 body::before {
     content: "";
     display: block;
@@ -18,9 +19,9 @@ body {
     background-position: center;
     margin: 0;
     padding: 0;
-    color: #F2F2F2;
+    color: #fcfcfc;
     min-height: 100vh;
-    font-family: 'Montserrat', sans-serif;
+    font-family: system-ui, sans-serif;
 }
 
 h1 {
@@ -45,14 +46,15 @@ h3 {
 }
 
 .box {
-    background-color: #6E7E85;
-    padding: 20px;
-    border-radius: 25px;
+    background-color: #9e9e9ebb;
+    padding: 10px;
+    border-radius: 10px;
     margin: 10px auto;
     max-width: 600px;
     animation: fadein 1.5s;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'FreeMono', monospace
 } 
 
 @keyframes fadein {
@@ -78,7 +80,7 @@ h3 {
     text-align: justify;
 }
 .box a {
-    color: #D6E4F0;
+    color: #b6cfe6;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
@@ -87,7 +89,6 @@ h3 {
     margin-top: 10px;
     transition: color 0.3s ease;
 }
-
 .box a:hover {
     color: white;
 }
