@@ -12,7 +12,7 @@ body::before {
 }
 
 body {
-    background-image: url('https://raw.githubusercontent.com/ronios/krakenimagedump/main/Big_Sur_Horizon-min.jpg');
+    background-image: url('/big\ sur.jpg');
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;

@@ -12,7 +12,7 @@ body::before {
 }
 
 body {
-    background-image: url('https://cdn.discordapp.com/attachments/1098985119856984080/1100822488105099436/big_sur.jpg');
+    background-image: url('/big\ sur.jpg');
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
