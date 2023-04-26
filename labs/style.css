@@ -12,7 +12,7 @@ body::before {
 }
 
 body {
-    background-image: url('https://cdn.discordapp.com/attachments/1098985119856984080/1100822488105099436/big_sur.jpg');
+    background-image: url('https://raw.githubusercontent.com/ronios/krakenimagedump/main/Big_Sur_Horizon-min.jpg');
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,6 +22,7 @@ body {
     color: #fcfcfc;
     min-height: 100vh;
     font-family: 'montserrat', sans-serif;
+    transform: translate3d(0,0,0);
 }
 
 h1 {
