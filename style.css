@@ -12,7 +12,7 @@ body::before {
 }
 
 body {
-    background-image: url('/big\ sur.jpg');
+    background-image: url('mountains.jpg');
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
