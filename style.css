@@ -134,6 +134,7 @@ header {
     padding: 10px;
     background-color: #333;
     color: #fff;
+    opacity: 0.9;
   }
   
   .logo {
@@ -153,3 +154,8 @@ header {
     text-decoration: none;
     padding: 10px;
   }
+
+.logo-img {
+    width: 65px;
+    height: auto;
+}
