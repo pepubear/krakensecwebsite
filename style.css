@@ -136,7 +136,10 @@ header {
     color: #fff;
     opacity: 0.9;
   }
-  
+  .logo-img {
+    width: 65px;
+    height: auto;
+}
   .logo {
     font-size: 24px;
     font-weight: bold;
@@ -154,8 +157,3 @@ header {
     text-decoration: none;
     padding: 10px;
   }
-
-.logo-img {
-    width: 65px;
-    height: auto;
-}
