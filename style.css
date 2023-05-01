@@ -157,3 +157,7 @@ header {
     text-decoration: none;
     padding: 10px;
   }
+
+  .proxmox-nav {
+    margin-left: auto;
+}

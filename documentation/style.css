@@ -19,3 +19,18 @@ body {
     background-position: center;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .proxmox-nav {
+    margin-left: auto;
+}
