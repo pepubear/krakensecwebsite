@@ -59,7 +59,6 @@ h3 {
     margin-top: 40px;
     margin-bottom: 40px;
     font-family: 'FreeMono', monospace;
-    align: center;
 } 
 
 @keyframes fadein {
@@ -152,8 +151,9 @@ header {
   }
 footer {
     background-color: #333;
+    opacity: 1;
     color: white;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -175,4 +175,32 @@ footer {
 
   .proxmox-nav {
     margin-left: auto;
+}
+.button {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #171515;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  opacity: 1.0;
+}
+.button img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  filter: blur(0);
+  transition: transform 0.2s ease-in-out;
+  opacity: 1.0;
+}
+.button:hover {
+  background-color: #ffffff;
+  filter: blur(0);
+}
+.button:hover img {
+  transform: scale(1.1);
+  filter: blur(0);
 }
