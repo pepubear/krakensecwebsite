@@ -54,6 +54,7 @@ h3 {
     padding: 10px;
     border-radius: 10px;
     margin: 10px auto;
+    width: 600px; 
     max-width: 600px;
     animation: fadein 1.5s;
     margin-top: 40px;
@@ -179,6 +180,7 @@ footer {
     color: #fff;
     text-decoration: none;
     padding: 10px;
+    transition: color 0.3s ease;
   }
 nav a:hover {
   color: #4169e1;
