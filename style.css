@@ -228,3 +228,11 @@ body::before {
   abbr {
   text-decoration:none
   }
+  .orange {
+    color: orange;
+  }
+  
+  .black {
+    color: black;
+  }
+  
