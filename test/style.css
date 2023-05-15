@@ -1,0 +1,24 @@
+body {
+    background-color:#080808
+}
+#typewriter {
+    color: #3CF269;
+    font-family: 'JetBrains Mono',monospace;
+    font-size: 16px;
+}
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+#typewriter:after {
+    content: "|";
+    display: inline-block;
+    color: #fff;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
